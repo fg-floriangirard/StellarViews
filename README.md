@@ -2,7 +2,7 @@
 
 Welcome to StellarViews, an interactive project that allows users to embark on a journey through the universe! Developed as a personal project, StellarViews served as my launchpad into the world of JavaScript. As an aspiring programmer, I saw this project as the perfect opportunity to practice JavaScript, HTML, and CSS while combining my fascination with the cosmos. :computer: 
 
-- [Try StellarViews here!]()
+- [Try StellarViews here!](https://stellar-views.vercel.app/)
 
 ## Features:
 
