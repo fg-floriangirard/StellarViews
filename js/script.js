@@ -43,3 +43,5 @@ function generateSliderImages() {
    const firstSliderImage = document.querySelector('.slider__img');
    firstSliderImage.classList.add('slider__img--current');
 }
+
+articles.init();
