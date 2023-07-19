@@ -7,9 +7,9 @@ const reviewsFilter = {
    * @returns {void}
    */
   init : function() {
-      // Select all input elements with class 'filter' representing the rating checkboxes.
+      // Select all input elements with class 'filter' representing the rating checkboxes
       const ratingCheckboxes = document.querySelectorAll('.filter input');
-      // Attach a click event listener to each rating checkbox to handle user interactions.
+      // Attach a click event listener to each rating checkbox to handle user interactions
       for (const checkBox of ratingCheckboxes) {
           checkBox.addEventListener('click', reviewsFilter.handleClickOnRatingCheckbox);
       }
@@ -24,7 +24,7 @@ const reviewsFilter = {
   handleClickOnRatingCheckbox : function(event) { 
       const ratingCheckbox = event.target;
       const rating = ratingCheckbox.value;
-      // Call the 'toggleReviewsFromRating' function to show/hide reviews of the selected rating.
+      // Call the 'toggleReviewsFromRating' function to show/hide reviews of the selected rating
       reviewsFilter.toggleReviewsFromRating(rating);
   },
   
@@ -35,9 +35,9 @@ const reviewsFilter = {
    * @returns {void}
    */
   toggleReviewsFromRating : function (rating) {
-      // Select all review elements with a matching 'data-rating' attribute equal to the given rating.
+      // Select all review elements with a matching 'data-rating' attribute equal to the given rating
       const reviewsToFilter = document.querySelectorAll('.review[data-rating="'+rating+'"]');
-      // Toggle the visibility of each review element with the matching rating value.
+      // Toggle the visibility of each review element with the matching rating value
       for (const reviewElement of reviewsToFilter) {         
           reviewElement.classList.toggle('review--hidden');
       }

@@ -27,11 +27,11 @@ const articles = {
       const allArticle = event.target.closest('.card');
       const oldMessages = allArticle.querySelectorAll('.message');
 
-      // Remove any existing error messages before displaying the new one.
+      // Remove any existing error messages before displaying the new one
       for (const oldMessage of oldMessages) {
           oldMessage.remove();
       }
-      // Create a new error message element and add it to the top of the article.
+      // Create a new error message element and add it to the top of the article
       const errorMessage = document.createElement('p');
       errorMessage.classList.add('message');
       errorMessage.textContent = articles.errorMessage;

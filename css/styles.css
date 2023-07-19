@@ -66,6 +66,16 @@ p {
   margin-bottom: 1rem;
 }
 
+.message--error {
+  background-color: #f44336;
+  color: #ffffff;
+}
+
+.message--success {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
 /* top */
 .header__part {
   border-bottom: var(--border-normal);
