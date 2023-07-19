@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StellarViews</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <header class="header">
+    <nav>
+      <div class="header__part">
+        <div class="container">
+          <div class="header__flex">
+            <a class="logo" href="">
+              <img class="logo__image" src="img/logo-theme-green.png" alt="logo">
+              <span class="logo__title">StellarViews</span>
+            </a>
+            <div class="menu">
+              <a class="menu__item" href=""><i class="icon-heart"></i> Favorites</a>
+              <a class="menu__item" id="newsletter-btn" href=""><i class="icon-mail"></i> Newsletter</a>
+              <a class="menu__item" href=""><i class="icon-check-circle"></i> Reviews</a>
+              <button id="theme-switch" class="btn" type="button" aria-label="Change theme"><i class="icon-moon"></i></button>
+              <div class="menu__color-switcher">
+                <button id="theme-green" class="theme-button" type="button" aria-label="Changer la couleur du thème"></button>
+                <button id="theme-red" class="theme-button" type="button" aria-label="Changer la couleur du thème"></button>
+                <button id="theme-blue" class="theme-button" type="button" aria-label="Changer la couleur du thème"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__part">
+        <div class="container">
+          <div class="submenu">
+            <a class="submenu__item submenu__item--current" href="">Space</a>
+            <a class="submenu__item" href="">Galaxies</a>
+            <a class="submenu__item" href="">Nebulas</a>
+            <a class="submenu__item" href="">Planets</a>
+            <a class="submenu__item" href="">Nasa</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="content">
+      <h1 class="content__title">Explore the universe </h1>
+
+      <section class="slider">
+        <button class="btn slider__btn" type="button" aria-label="Previous">&lt;</button>
+        <button class="btn slider__btn" type="button" aria-label="Next">&gt;</button>
+      </section>
+
+      <section class="segment">
+        <h2 class="segment__title">Articles</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="card__content">
+              <img class="card__image" src="img/saturn.jpg" alt="Saturn">
+              <h3 class="card__title">Saturn's cosmic ring dance</h3>
+              <p class="card__desc">Discover Saturn's celestial wonder with mesmerizing rings and moons.</p>
+            </div>
+            <div class="card__action">
+              <button class="btn btn__like" type="button" aria-label="Like"><i class="icon-heart"></i></button> <a class="btn" href="">Explore</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__content">
+              <img class="card__image" src="img/jupiter.jpg" alt="Jupiter">
+              <h3 class="card__title">Jupiter's majestic gas giant</h3>
+              <p class="card__desc">Discover Jupiter's grandeur, swirling clouds and immense size.</p>
+            </div>
+            <div class="card__action">
+              <button class="btn btn__like" type="button" aria-label="Like"><i class="icon-heart"></i></button> <a class="btn" href="">Explore</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__content">
+              <img class="card__image" src="img/orion.jpg" alt="Orion Nebula">
+              <h3 class="card__title">Orion Nebula's cosmic spectacle</h3>
+              <p class="card__desc">Witness a celestial dance of gas and dust, captivating and surreal.</p>
+            </div>
+            <div class="card__action">
+              <button class="btn btn__like" type="button" aria-label="Like"><i class="icon-heart"></i></button> <a class="btn" href="">Explore</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__content">
+              <img class="card__image" src="img/carina.jpg" alt="">
+              <h3 class="card__title">Carina Nebula's stellar fireworks</h3>
+              <p class="card__desc">Explore a dazzling display of stars and cosmic wonders, truly mesmerizing.</p>
+            </div>
+            <div class="card__action">
+              <button class="btn btn__like" type="button" aria-label="Like"><i class="icon-heart"></i></button> <a class="btn" href="">Explore</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__content">
+              <img class="card__image" src="img/andromeda.jpg" alt="Carina Nebula">
+              <h3 class="card__title">The Andromeda Galaxy</h3>
+              <p class="card__desc">Embark on an astronomical journey through the vastness of Andromeda!</p>
+            </div>
+            <div class="card__action">
+              <button class="btn btn__like" type="button" aria-label="Like"><i class="icon-heart"></i></button> <a class="btn" href="">Explore</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__content">
+              <img class="card__image" src="img/spacex.jpg" alt="">
+              <h3 class="card__title">SpaceX rocket landing</h3>
+              <p class="card__desc">Experience the remarkable feat of SpaceX's precise rocket landings.</p>
+            </div>
+            <div class="card__action">
+              <button class="btn btn__like" type="button" aria-label="Like"><i class="icon-heart"></i></button> <a class="btn" href="">Explore</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="segment">
+        <h2 class="segment__title">Cosmic Reviews</h2>
+        <div class="filters">
+          <span class="filter">
+            <input type="checkbox" name="rating" value="3" id="rating-3" checked>
+            <label for="rating-3">3 étoiles</label>
+          </span>
+          <span class="filter">
+            <input type="checkbox" name="rating" value="2" id="rating-2" checked>
+            <label for="rating-2">2 étoiles</label>
+          </span>
+          <span class="filter">
+            <input type="checkbox" name="rating" value="1" id="rating-1" checked>
+            <label for="rating-1">1 étoile</label>
+          </span>
+        </div>
+        <article class="review" data-rating="3">
+          <h3 class="review__title">Malcolm Reynolds</h3>
+          <div class="review__stars">
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae esse provident velit perspiciatis nemo rem assumenda dolores quam maiores corporis?</p>
+        </article>
+        <article class="review" data-rating="2">
+          <h3 class="review__title">Zoe Alleyne</h3>
+          <div class="review__stars">
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi a iusto molestias voluptatum expedita exercitationem id modi, neque similique ipsum, quam sit minima quo reiciendis! Ipsum temporibus adipisci praesentium quae!</p>
+        </article>
+        <article class="review" data-rating="1">
+          <h3 class="review__title">Hoban Washburne</h3>
+          <div class="review__stars">
+            <i class="icon-star"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at ex pariatur maxime inventore non, quae facere, doloremque provident ratione iure adipisci sequi doloribus repellat natus repellendus quo quam libero.</p>
+        </article>
+        <article class="review" data-rating="3">
+          <h3 class="review__title">Kaywinnet Lee Frye</h3>
+          <div class="review__stars">
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, doloremque.</p>
+        </article>
+        <article class="review" data-rating="3">
+          <h3 class="review__title">Simon Tam</h3>
+          <div class="review__stars">
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quos quas repellat? Odio quam ea repellat at recusandae illo quibusdam, reprehenderit similique cumque earum nam, aperiam quo qui culpa autem quaerat assumenda sapiente, maxime praesentium. Aut iusto at hic quaerat.</p>
+        </article>
+        <article class="review" data-rating="1">
+          <h3 class="review__title">Jayne Cobb</h3>
+          <div class="review__stars">
+            <i class="icon-star"></i>
+          </div>
+          <p>Lorem ipsum dolor sit.</p>
+        </article>
+        <article class="review" data-rating="3">
+          <h3 class="review__title">Inara Serra</h3>
+          <div class="review__stars">
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum et sit fuga laboriosam accusantium consequuntur est reprehenderit a sunt vero voluptates tempora cum delectus unde eveniet possimus veniam dignissimos, officiis autem dicta corrupti. Quasi fugit nobis sint voluptatum praesentium nihil, aliquid voluptatibus veritatis, illum qui aut obcaecati beatae earum quibusdam.</p>
+        </article>
+        <article class="review" data-rating="3">
+          <h3 class="review__title">Caméo</h3>
+          <div class="review__stars">
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+            <i class="icon-star"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim dolorem dolores veniam!</p>
+        </article>
+      </section>
+
+    </div>
+  </main>
+
+  <aside class="newsletter">
+    <button class="newsletter__close btn" aria-label="Close" type="button">&Cross;</button>
+    <h2 class="newsletter__title">Subscribe to the newsletter</h2>
+    <form action="" method="post">
+      <input class="newsletter__field" type="email" required id="subscriber-email" placeholder="user@email.com" aria-label="Your mail">
+      <button class="btn" type="submit">Submit</button>
+    </form>
+  </aside>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Any resemblance to other content is purely coincidental.</p>
+    </div>
+  </footer>
+
+  <script src="./js/reviewsFilter.js"></script>
+  <script src="./js/themes.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/articles.js"></script>
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>
