@@ -8,9 +8,9 @@ Welcome to StellarViews, an interactive project that allows users to embark on a
 
 🌌 **Dark Mode Toggle:** Save your eyes from the brightness of the cosmos with the dark mode toggle by clicking the moon icon in the navigation menu. The theme preference is saved using local storage, so your choice persists across sessions.
 
-🎨 **Custom Color Themes:** Personalize your cosmic experience with custom color themes! Choose between green, red, or blue color themes using the color-switcher buttons. Your preferred color theme is saved in localstorage for future visits.
+🎨 **Custom Color Themes:** Personalize your cosmic experience with custom color themes! Choose between green, red, or blue color themes using the color-switcher buttons. Your preferred color theme is saved in local storage for future visits.
 
-💌 **Newsletter Subscription:** Stay updated with the latest space news by subscribing to the newsletter. Click the "Newsletter" button in the menu to open the subscription panel. If you attempt to use disposable email addresses (stored in an array), the website displays an error message and encourages using a valid email address.
+💌 **Newsletter Subscription:** Stay updated with the latest space news by subscribing to the newsletter. Click the "Newsletter" button in the menu to open the subscription panel. If you attempt to use disposable email addresses (stored in an array, exemple : yopmail.fr), the website displays an error message and encourages using a valid email address.
 
 🪐 **Slider with Space Images:** Explore captivating images of Saturn, Jupiter, and Carina Nebula in the slider section. You can navigate between images using the previous and next buttons. It's like you're traveling through space!
 
