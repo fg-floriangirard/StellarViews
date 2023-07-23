@@ -20,11 +20,11 @@ Welcome to StellarViews, an interactive project that allows users to embark on a
 
 ## Installation:
 
-To run StellarViews on your local machine, simply clone this repository and open the index.html file in your favorite web browser. 
-```
-# Clone the StellarViews repository
+#### 1. Clone this repository
+```console
 git clone https://github.com/your-username/StellarViews.git
-
-# Navigate to the project directory
+```
+#### 2. Navigate to the project directory and open the index.html file in your web browser. 
+```console
 cd StellarViews
 ```
